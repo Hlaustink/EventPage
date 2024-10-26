@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.event-page{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.filter-section{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-section select{
+    padding: 8px;
+    font-size: 1em;
+}
+
+.event-form input,
+.event-form select,
+.event-form button{
+    padding: 10px;
+    font-size: 1em;
+}
+
+.event-form button{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.event-form button:hover{
+    background-color: #218838;
+}
+
+.event-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.event-item{
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-item img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.event-item h3{
+    margin: 10px 0;
+}
+
+.event-item p{
+    color: #555;
+}
+
+.countdown{
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
+}
+
+.countdown span{
+    margin: 0 5px;
+}
